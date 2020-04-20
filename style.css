@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  margin-left: 50px;
+}
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  background-color: #b4b4b4
+}
+header *{
+  display: inline;
+  height: 50px;
+}
+
+header ul {
+   padding: 0px;
+}
+section {
+   height: 100vh;
+    border: 2px solid black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+#hero .profile-img {
+    width: 300px;
+}
+footer {
+    text-align: center;
+    padding: 50px;
+}
